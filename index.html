@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Form</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Let's Talk</h1>
+      <h3>Think you have what it takes? Show us.</h3>
+    </header>
+    <div class="form">
+      <section class="user_info">
+        <header>
+          <h4>1.Personal Information</h4>
+        </header>
+
+        <div class="flex-box">
+          <div class="flex-75">
+            <input type="text" name="name" placeholder="Full name*" required>
+          </div>
+          <div class="flex-25">
+            <input type="text" name="phone" placeholder="Phone*" required>
+          </div>
+          <div class="flex-75">
+            <input type="text" name="email" placeholder="Email*" required>
+          </div>
+          <div class="flex-75">
+            <input type="text" name="reemail" placeholder="Re-enter email*" required>
+          </div>
+          <div class="flex-100">
+            <textarea name="address" rows="2" placeholder="Address*" required></textarea>
+          </div>
+          <div class="flex-25">
+            <input type="text" name="city" placeholder="City*" required>
+          </div>
+          <div class="flex-25">
+            <input type="text" name="state" placeholder="State">
+          </div>
+          <div class="flex-25">
+            <input type="text" name="region" placeholder="Country/Region*" required>
+          </div>
+          <div class="flex-25">
+            <input type="text" name="zip" placeholder="Zip/PostalCode">
+          </div>
+          <div class="flex-100">
+            <input type="text" name="how" placeholder="How did you hear about us">
+
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <header>
+          <h4>2. Skills and Location</h4>
+        </header>
+        <h5>Which is your primary design discipline?*</h5>
+
+        <div class="flex-box">
+          <div class="flex-25">
+            <button class="btn" type="button" name="dr">Design Research</button>
+          </div>
+          <div class="flex-25">
+            <button class="btn" type="button" name="vd">Visual Design</button>
+          </div>
+          <div class="flex-25">
+            <button class="btn" type="button" name="ud">UX Design</button>
+          </div>
+          <div class="flex-25">
+            <button class="btn" type="button" name="fd">Front-end Dev</button>
+          </div>
+
+        </div>
+
+        <div id="wrap">
+
+          <div class="left">
+            <div class="left_chcbox">
+            <h5>Do you have experience with any other <br> disciplines?</h5>
+
+              <label for="Visual_d" class="checkbox">Visual Design
+                <input type="checkbox" id="Visual_d" name="" value="">
+                  <span class="checkmark"></span>
+              </label>
+              <label for="ux_d" class="checkbox">UX-Design
+                <input type="checkbox" id="ux_d" name="" value="">
+                  <span class="checkmark"></span>
+              </label>
+              <label for="fe_d" class="checkbox">Front-end Developement
+                <input type="checkbox" id="fe_d" name="" value="">
+                  <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="right_chcbox">
+            <h5>Where are you interested in working?*</h5>
+            <p> You must be legally authorized to work without visa <br> sponsorship in the location(s) you choose. </p>
+
+            <label for="aus" class="checkbox">Austin, Texas
+              <input type="checkbox" id="aus" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="ny" class="checkbox">New York, New York
+              <input type="checkbox" id="ny" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="toronto" class="checkbox">Toronto, Canada
+              <input type="checkbox" id="toronto" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="shanghai" class="checkbox">Shanghai, China
+              <input type="checkbox" id="shanghai" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="dublin" class="checkbox">Dublin, Ireland
+              <input type="checkbox" id="dublin" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="hursley" class="checkbox">Hursley, United Kingdom
+              <input type="checkbox" id="hursley" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="boeblingen" class="checkbox">Boeblingen, Germany
+              <input type="checkbox" id="boeblingen" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+            <label for="else" class="checkbox">Somwhere else
+              <input type="checkbox" id="else" name="" value="">
+                <span class="checkmark"></span>
+            </label>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <header>
+          <h4>3. Portfolio</h4>
+        </header>
+        <h5>Prove you're IBM's next great designer by showing us who you are. What you've done. How you think. Thell us your story.</h5>
+
+        <div class="flex-box">
+          <div class="flex-100">
+            <input type="text" name="how" placeholder="Portfolio link*">
+          </div>
+          <div class="flex-100">
+            <textarea name="more_info" rows="5" placeholder="Anything else (another link, availability, etc)?"></textarea>
+          </div>
+          <div class="flex-25">
+            <button class="btn" type="button" name="submit">Submit</button>
+          </div>
+      </div>
+      </section>
+
+    </div>
+
+</div>
+</body>
+</html>
